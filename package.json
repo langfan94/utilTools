@@ -1,0 +1,29 @@
+{
+  "name": "compareutil",
+  "version": "1.0.0",
+  "description": "self compare array or object tool ",
+  "main": "index.js",
+  "scripts": {
+    "compareArray": "babel-node ./compareArray.js",
+    "test": "jest --coverage"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "langfan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.7.6",
+    "babel-jest": "^24.9.0"
+  }
+}
